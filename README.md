@@ -1,3 +1,4 @@
+<pre>
 var gulpCloudinary = require('gulp-cloudinary'),
 	gulp = require('gulp');
 
@@ -20,3 +21,4 @@ gulp.task('upload_images', function() {
   		.pipe(builderDefault.uploader())
   		.pipe(gulp.dest('./dest/'))
 });
+</pre>
