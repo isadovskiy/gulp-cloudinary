@@ -1,5 +1,6 @@
 <pre>
-#Example:
+Example:
+=============
 var gulpCloudinary = require('gulp-cloudinary'),
 	gulp = require('gulp');
 
